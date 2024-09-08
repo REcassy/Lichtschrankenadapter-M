@@ -30,7 +30,6 @@ You need the following (given in brackets are Reichelt ordering numbers for refe
 | R1, R2 | 0,25W 5K1 resistor | 0207 |  1/4W 5,1K |
 | J1 | Mini-Din 6 connector | N/A | EB-DIOS M06 |
 | J2-J5 | 4mm ID, 5mm OD brass tube | N/A | N/A |
-| ------------- | ------------- | ------------- | ------------- |
 
 ## Gerber and drill files
 The gerber and drill files were exported from KiCAD and are ready to be sent to any PCB manufacturer of your choice. The PCB design features no vias. Any standard double sided process will suffice.
