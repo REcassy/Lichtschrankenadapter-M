@@ -31,7 +31,7 @@ You need the following (given in brackets are Reichelt ordering numbers for refe
 | R1, R2 | 0,25W 5K1 resistor | 0207 |  1/4W 5,1K |
 | J1 | Mini-Din 6 connector | N/A | EB-DIOS M06 |
 | J2-J5 | 4mm ID, 5mm OD brass tube | N/A | N/A |
-| J2-J5 | 4mm laboraty jacks | N/A | SEP 2610 F48  |
+| J2-J5 | 4mm laboratory jacks | N/A | SEP 2610 F48  |
 
 choose either J2-J5 option and the appropriate PCB design.
 
