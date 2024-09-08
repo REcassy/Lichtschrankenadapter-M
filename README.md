@@ -1,6 +1,7 @@
 # Lichtschranke-M
 Open sensor for use with any standard light barrier on a Mobile Cassy.
 
+## Compatible barriers
 The Mobile Cassy pulls J2 to 5V (barrier 1) and J3 to 3.7V (barrier 2). Your light barrier needs to pull that down to less than 2V to register an event. A photo-transistor is optimal for that. You barrier can make use of +5V / GND jacks to power the light source. You should try to use as little current as possible to not put a strain on the Mobile Cassy's batteries, but anything up to 100mA seems to be acceptable.
 
 Use at your own risk - especially drawing power. There is no public information on current limiting or fuses inside the Mobile Cassy. Always prefer LED to incandescent bulbs.
