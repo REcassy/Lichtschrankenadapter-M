@@ -1,6 +1,8 @@
 # Lichtschranke-M
 Open sensor for use with any standard light barrier on a Mobile Cassy.
 
+This repo is under active development, so schematic and pcb files may not match always. Use the current release for production: https://github.com/REcassy/Lichtschranke-M/releases/tag/v1.0
+
 ## Compatible barriers
 The Mobile Cassy pulls J2 to 5V (barrier 1) and J3 to 3.7V (barrier 2). Your light barrier needs to pull that down to less than 2V to register an event. A photo-transistor is optimal for that. You barrier can make use of +5V / GND jacks to power the light source. You should try to use as little current as possible to not put a strain on the Mobile Cassy's batteries, but anything up to 100mA seems to be acceptable.
 
