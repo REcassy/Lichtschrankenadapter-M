@@ -1,5 +1,7 @@
 # Lichtschranke-M
-Open sensor for use with any standard light barrier on a Mobile Cassy
+Open sensor for use with any standard light barrier on a Mobile Cassy. The Mobile Cassy pulls J2 to 5V (barrier 1) and J3 to 3.7V (barrier 2). Your light barrier needs to pull that down to less than 2V to register an event. A photo-transistor is optimal for that. You barrier can make use of +5V / GND jacks to power the light source. You should try to use as little current as possible to not put a strain on the Mobile Cassy's batteries, but anything up to 100mA seems to be acceptable.
+
+Use at your own risk - especially drawing power. There is no public information on current limiting or fuses inside the Mobile Cassy. Always prefer LED to incandescent bulbs.
 
 ## Testing
 For testing I included an Arduino simulator code. For this you need to connect the I<sup>2</sup>C pins of your Arduino (e.g. on a Uno Pins the upper right ones) to the I<sup>2</sup>C pins of the Cassy Mini-DIN interface (SDA: 1 and SCK: 5) as well as pin 7 of the Arduino (change this, if this is no digital out on your Arduino) to pin 2.
@@ -15,7 +17,10 @@ The included ino file is intended for use with the Arduino IDE and any Arduino a
 There are of course countless other ways to program your ATtiny.
 
 ## Schematic and PCB
-The schematic and PCB files were created with KiCAD. Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V) as well as an incorrectly poloarized C2.
+The schematic and PCB files were created with KiCAD.
+
+Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V) as well as an incorrectly poloarized C2.
+
 The PCB file ending in "-tube" is used with brass tubes (see BOM) as connectors the one ending in "-jack" with ready made 4mm jacks.
 
 ## BOM
