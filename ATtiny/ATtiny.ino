@@ -2,7 +2,7 @@
 uint8_t answer[4]={0x00,0x08, 0x00, 0x8F}; // This code is the sensor catalogue number
 
 void I2C_RxHandler(int numBytes) {
-  Wire.write(answer, sizeof(answer)); // Simply answer every request with out number
+  Wire.write(answer, sizeof(answer)); // Simply answer every request with our number
 }
  
 void setup() {
