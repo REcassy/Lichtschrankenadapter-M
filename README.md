@@ -53,7 +53,7 @@ Please choose the correct set of files for your desired jacks.
 
 Below are the renderings for both variants:
 
-![](![alt text](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-top.svg?raw=true)  ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-bottom.svg?raw=true)
+![]((https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-top.svg?raw=true)  ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-bottom.svg?raw=true)
 
 ## 3D-printed case
 A 3D printable case is currently in development.
