@@ -51,5 +51,10 @@ choose either J2-J5 option and the appropriate PCB design.
 The gerber and drill files were exported from KiCAD and are ready to be sent to any PCB manufacturer of your choice. The PCB design features no vias. Any standard double sided process will suffice.
 Please choose the correct set of files for your desired jacks.
 
+Below are the renderings for both variants:
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](![alt text](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-top.svg?raw=true)  |  ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-bottom.svg?raw=true)
+
 ## 3D-printed case
 A 3D printable case is currently in development.
