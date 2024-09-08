@@ -24,7 +24,7 @@ There are of course countless other ways to program your ATtiny.
 ## Schematic and PCB
 The schematic and PCB files were created with KiCAD.
 
-Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V) as well as an incorrectly poloarized C2.
+Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V) as well as an incorrectly polarized C2.
 
 The PCB file ending in "-tube" is used with brass tubes (see BOM) as connectors the one ending in "-jack" with ready made 4mm jacks.
 
