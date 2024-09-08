@@ -25,6 +25,11 @@ Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V)
 
 The PCB file ending in "-tube" is used with brass tubes (see BOM) as connectors the one ending in "-jack" with ready made 4mm jacks.
 
+Below you can see both boards fully populated:
+
+![grafik](https://github.com/user-attachments/assets/75bc6a3c-8947-44a0-88a2-3af4b0098218)
+
+
 ## BOM
 You need the following (given in brackets are Reichelt ordering numbers for reference):
 
