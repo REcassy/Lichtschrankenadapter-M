@@ -14,7 +14,7 @@ void setup() {
 }
  
 void loop() {
-  // Nothing To Be Done Here
+  // Optional zur Simulierung einer Lichtschranke
   digitalWrite(7, HIGH);
   delay(750);
   digitalWrite(7, LOW);
