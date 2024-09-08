@@ -6,7 +6,7 @@ The Mobile Cassy pulls J2 to 5V (barrier 1) and J3 to 3.7V (barrier 2). Your lig
 Use at your own risk - especially drawing power. There is no public information on current limiting or fuses inside the Mobile Cassy. Always prefer LED to incandescent bulbs.
 
 ## Testing
-For testing I included an Arduino simulator code. For this you need to connect the I<sup>2</sup>C pins of your Arduino (e.g. on a Uno Pins the upper right ones) to the I<sup>2</sup>C pins of the Cassy Mini-DIN interface (SDA: 1 and SCK: 5) as well as pin 7 of the Arduino (change this, if this is no digital out on your Arduino) to pin 2.
+For testing I included an Arduino simulator code. For this you need to connect the I<sup>2</sup>C pins of your Arduino (e.g. on a Uno Pins the upper right ones) to the I<sup>2</sup>C pins of the Cassy Mini-DIN interface (SDA: 1 and SCK: 5) as well as pin 7 of the Arduino (change this, if this is no digital out on your Arduino) to Mini-DIN pin 2.
 
 ## Programming your ATTiny25
 The included ino file is intended for use with the Arduino IDE and any Arduino as an ISP Programmer. You need to:
