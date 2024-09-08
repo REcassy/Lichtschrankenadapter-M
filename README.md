@@ -16,6 +16,7 @@ There are of course countless other ways to program your ATtiny.
 
 ## Schematic and PCB
 The schematic and PCB files were created with KiCAD. Be aware that earlier photos on my blog show a switched J4/J5 label (GND and 5V) as well as an incorrectly poloarized C2.
+The PCB file ending in "-tube" is used with brass tubes (see BOM) as connectors the one ending in "-jack" with ready made 4mm jacks.
 
 ## BOM
 You need the following (given in brackets are Reichelt ordering numbers for reference):
@@ -30,12 +31,13 @@ You need the following (given in brackets are Reichelt ordering numbers for refe
 | R1, R2 | 0,25W 5K1 resistor | 0207 |  1/4W 5,1K |
 | J1 | Mini-Din 6 connector | N/A | EB-DIOS M06 |
 | J2-J5 | 4mm ID, 5mm OD brass tube | N/A | N/A |
-| J2-J5 | 4mm laboraty plugs | N/A | SEP 2610 F48  |
+| J2-J5 | 4mm laboraty jacks | N/A | SEP 2610 F48  |
 
 choose either J2-J5 option and the appropriate PCB design.
 
 ## Gerber and drill files
 The gerber and drill files were exported from KiCAD and are ready to be sent to any PCB manufacturer of your choice. The PCB design features no vias. Any standard double sided process will suffice.
+Please choose the correct set of files for your desired jacks.
 
 ## 3D-printed case
 A 3D printable case is currently in development.
