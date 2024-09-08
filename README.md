@@ -55,5 +55,8 @@ Below are the renderings for both variants:
 
 ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-top.svg?raw=true)  ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Jack-bottom.svg?raw=true)
 
+
+![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Tube-top.svg?raw=true)  ![](https://github.com/REcassy/Lichtschranke-M/blob/main/Renderings/Tube-bottom.svg?raw=true)
+
 ## 3D-printed case
 A 3D printable case is currently in development.
