@@ -25,7 +25,7 @@ You need the following (given in brackets are Reichelt ordering numbers for refe
 | Part Label  | Description | Form factor | Reichelt number |
 | ------------- | ------------- | ------------- | ------------- |
 | U1  |  ATiny25 | DIP-8 | ATTINY 25-20 PU |
-| U2 | USBLC6 in a | SOT-23-6 |  USBLC6-2SC6 |
+| U2 | USBLC6 | SOT-23-6 |  USBLC6-2SC6 |
 | C1, C3 | 50V 100nF ceramic cap | 1206 |  WAL 1206B104K500 |
 | C2 | 50V 10µF electrolytic cap | RM2,5 |  SU-A 10U 50|
 | R1, R2 | 0,25W 5K1 resistor | 0207 |  1/4W 5,1K |
