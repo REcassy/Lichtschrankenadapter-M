@@ -26,7 +26,7 @@ The included ino file is intended for use with the Arduino IDE and any Arduino a
 * use Tools->Burn Bootloader to set the appropriate E-Fuses in your ATtiny (only necessary with a brand new ATtiny)
 * use Sketch->Upload Using Programmer
 
-There are of course countless other ways to program your ATtiny.
+There are of course countless other ways to program your ATtiny. You can find the .hex file in the ATtiny directory.
 
 ## Schematic and PCB
 The schematic and PCB files were created with KiCAD.
