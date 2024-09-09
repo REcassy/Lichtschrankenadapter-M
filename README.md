@@ -14,9 +14,12 @@ For testing I included an Arduino simulator code. For this you need to connect t
 ## Programming your ATTiny25
 The included ino file is intended for use with the Arduino IDE and any Arduino as an ISP Programmer. You need to:
 * load the ISP sketch from the examples onto your arduino
-* connect the Arduino to the ATTiny according to these instructions: https://wolles-elektronikkiste.de/en/programming-attiny-with-arduino-code (ATtiny85 features the same pin layout)
-* install ATTinyCore according to the link above
-* when using other ATTiny chips check the datasheet or the ATtinyCore repo: https://github.com/SpenceKonde/ATTinyCore/blob/v2.0.0-devThis-is-the-head-submit-PRs-against-this/avr/extras/ATtiny_x5.md
+* install ATTinyCore (https://github.com/SpenceKonde/ATTinyCore) as a board manager into your Arduino IDE 
+* connect the Arduino to the ATTiny according to this graphic:
+
+![Untitled Sketch_Steckplatine](https://github.com/user-attachments/assets/d0ae1926-4e57-458a-b34f-290312cf2cf5)
+
+* when using other ATTiny chips check the datasheet or the ATtinyCore [repo][attiny-boards]
 * upload the sketch as described
 
 There are of course countless other ways to program your ATtiny.
@@ -60,3 +63,6 @@ Below are the renderings for both variants:
 
 ## 3D-printed case
 A 3D printable case is currently in development.
+
+
+[attiny-boards]: https://github.com/SpenceKonde/ATTinyCore/blob/v2.0.0-devThis-is-the-head-submit-PRs-against-this/avr/extras/ATtiny_x5.md
