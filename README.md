@@ -11,16 +11,20 @@ Use at your own risk - especially drawing power. There is no public information 
 ## Testing
 For testing I included an Arduino simulator code. For this you need to connect the I<sup>2</sup>C pins of your Arduino (e.g. on a Uno Pins the upper right ones) to the I<sup>2</sup>C pins of the Cassy Mini-DIN interface (SDA: 1 and SCK: 5) as well as pin 7 of the Arduino (change this, if this is no digital out on your Arduino) to Mini-DIN pin 2.
 
-## Programming your ATTiny25
+## Programming your ATtiny25
 The included ino file is intended for use with the Arduino IDE and any Arduino as an ISP Programmer. You need to:
-* load the ISP sketch from the examples onto your arduino
+* load the ISP sketch from the Arduino IDE (File->Examples->11. ArduinoISP) onto your Arduino Uno
 * install ATTinyCore (https://github.com/SpenceKonde/ATTinyCore) as a board manager into your Arduino IDE 
 * connect the Arduino to the ATTiny according to this graphic:
 
 ![Untitled Sketch_Steckplatine](https://github.com/user-attachments/assets/d0ae1926-4e57-458a-b34f-290312cf2cf5)
 
 * when using other ATTiny chips check the datasheet or the ATtinyCore [repo][attiny-boards]
-* upload the sketch as described
+* set Tools->Board to ATtinyCore-> "ATtiny25/45/85 (no bootloader)"
+* set Tools->Chip to ATtiny25
+* set Tools->Programmer to "Arduino as ISP"
+* use Tools->Burn Bootloader to set the appropriate E-Fuses in your ATtiny (only necessary with a brand new ATtiny)
+* use Sketch->Upload Using Programmer
 
 There are of course countless other ways to program your ATtiny.
 
