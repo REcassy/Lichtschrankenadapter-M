@@ -1,4 +1,4 @@
-# Lichtschranke-M
+# Lichtschrankenadapter-M
 Open sensor for use with any standard light barrier on a Mobile Cassy.
 
 This repo is under active development, so schematic and pcb files may not match always. Use the current release for production: https://github.com/REcassy/Lichtschranke-M/releases/tag/v1.0
